@@ -3,3 +3,4 @@ public class hw {
         System.out.println("hello world \nits nice to see you\ngood bye");
     }
 }
+
