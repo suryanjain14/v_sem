@@ -1,8 +1,8 @@
 public class intdel {
     public static void main(String[] args) {
-        int a[]={5,3,1,4,6};
+        int[] a ={5,3,1,4,6};
         int min=a[0],max=a[0];
-        for(int i=0 ;i<4;i++){
+        for(int i=0 ;i<5;i++){
             if (min>a[i]){
                 min = a[i];
             }
