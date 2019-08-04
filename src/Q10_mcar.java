@@ -4,7 +4,7 @@ public class Q10_mcar {
         rec++;
         fac = fac * no;
         if (no == 1) {
-            return rec,fac;//problem baad me dhekha jye ga
+            return rec,fac);//problem baad me dhekha jye ga
         }
         no--;
         fact(no, fac, rec);
