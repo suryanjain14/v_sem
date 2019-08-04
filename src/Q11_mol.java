@@ -16,8 +16,7 @@ public class Q11_mol {
         ar = ar(no);
         System.out.println("area of square" + ar);
         ar = ar(no, no1);
-        System.out.println("area of square" + ar);
-        System.out.println("area of rec" + ar);
+        System.out.println("area of rec " + ar);
 
 
     }

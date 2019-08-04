@@ -1,5 +1,5 @@
 public class Q10_mcar {
-
+/*
     public static int fact(int no, int fac, int rec) {
         rec++;
         fac = fac * no;
@@ -18,5 +18,5 @@ public class Q10_mcar {
 
     }
 
-
+*/
 }
