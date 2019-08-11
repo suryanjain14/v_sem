@@ -1,4 +1,4 @@
-public class fac {
+public class Q16fac {
 
     public static void main(String[] args) {
 
