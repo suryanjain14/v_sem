@@ -1,4 +1,4 @@
-public class Q20bubblesort {
+public class Q21bubblesort {
     public static void main(String[] args) {
         int[] a = {3, 5, 1, 4, 2};
         for (int i = 0; i < 5; i++) {
