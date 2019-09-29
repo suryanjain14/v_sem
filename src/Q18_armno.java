@@ -9,6 +9,7 @@ public class Q18_armno {
         no = sc.nextInt();
         temp = no;
 
+
         for (int k = 0; no > 0; k++) {
             int j = no % 10;
             sum = j * j * j + sum;
