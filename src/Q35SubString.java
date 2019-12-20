@@ -1,5 +1,4 @@
 public class Q35SubString {
-
     public static void main(String[] args) {
         String str = "the quick brown fox jump up the lazy dog";
         int end = str.length();
@@ -13,8 +12,6 @@ public class Q35SubString {
                     }
                 }
             }
-
         }
-
     }
 }
