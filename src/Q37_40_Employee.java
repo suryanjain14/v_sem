@@ -1,19 +1,30 @@
 import java.util.Scanner;
 
-public class Q37_44_Employee {
-    public static void main(String[] args) {
-        //Q36-37
-        new Employee();
+public class Q37_40_Employee {
+    private Employee e1 = new Employee(), e2 = new Employee();
 
-        Q37_44_Employee obj = new Q37_44_Employee();
+    public static void main(String[] args) {
+        //Q37-38
+        new Employee();
+//Q39
+        Q37_40_Employee obj = new Q37_40_Employee();
         obj.employee_test();
+        //Q40
+        obj.raise();
     }
 
-    void employee_test() {
-        Employee e1 = new Employee(), e2 = new Employee();
+    private void employee_test() {
         System.out.println("salary one");
         System.out.println(e1.salary);
         System.out.println("salary two");
+        System.out.println(e2.salary);
+    }
+
+    private void raise() {
+        System.out.println("Raise");
+        e1.salary = e1.salary + e1.salary * .10d;
+        e2.salary = e2.salary + e2.salary * .10d;
+        System.out.println(e1.salary);
         System.out.println(e2.salary);
 
     }
@@ -22,7 +33,7 @@ public class Q37_44_Employee {
 }
 
 class Employee {
-    String firstname, lastname;
+    private String firstname, lastname;
     double salary;
 
     Employee() {
@@ -32,7 +43,7 @@ class Employee {
 
     }
 
-    void get() {
+    private void get() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first name");
         this.firstname = sc.nextLine();
