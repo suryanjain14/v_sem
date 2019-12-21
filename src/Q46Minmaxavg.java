@@ -15,5 +15,4 @@ public class Q46Minmaxavg {
         int max = a > b && a > c ? a : ((b > c && b > a) ? b : c);
         System.out.println("min: " + min + " max: " + max);
     }
-
 }
