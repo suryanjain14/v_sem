@@ -1,11 +1,19 @@
 import java.util.Scanner;
 
+//Enther the all salary variables manually for contract employees
 public class Q49_50 {
     public static void main(String[] args) {
-        //ContractEmployee ce1=new ContractEmployee();
+        /*ContractEmployee ce1=new ContractEmployee();
         RegularEmployee re1 = new RegularEmployee();
-        re1.displayFullName();
-        System.out.println(re1.salary + "$");
+        ce1.displayFullName();
+        System.out.println(ce1.salary + "$");
+    */
+        HorlyEmployee he1 = new HorlyEmployee();
+        he1.CalculateWages();
+        he1.getDesig();
+        he1.displayFullName();
+        System.out.println("salary " + he1.salary);
+
     }
 }
 
@@ -88,29 +96,31 @@ class RegularEmployee extends Employees {
 
 
 class HorlyEmployee extends ContractEmployee {
-    double noOfHrs;
+    int noOfHrs;
     double wagePerHrs;
 
     void CalculateWages() {
-        double salary = noOfHrs * wagePerHrs;
+        salary = noOfHrs * wagePerHrs;
     }
 
     void getDesig() {
-        super.designation = "Hourly contract";
+        super.designation = "Hourly Employee";
     }
 
 
 }
 
 class WeeklyEmployee extends ContractEmployee {
-    double noOfweeks;
-    double wagePerweek;
+
+    double noOfWeek;
+    double wagePerWeek;
 
     void CalculateWages() {
-        double salary = noOfweeks * wagePerweek;
+        salary = noOfWeek * wagePerWeek;
     }
 
     void getDesig() {
-        super.designation = "weekly contract";
+        super.designation = "Weekly Employee";
     }
+
 }
