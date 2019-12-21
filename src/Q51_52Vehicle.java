@@ -5,7 +5,6 @@ public class Q51_52Vehicle {
 
     }
 }
-
 class Vehicle {
     String insuranceno, vehicleno, color;
 
