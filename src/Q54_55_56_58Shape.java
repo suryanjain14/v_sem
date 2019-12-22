@@ -89,4 +89,4 @@ class Rectangle extends TwoDim {
     }
 
 }
-//same will be done for rest
+//same will be done for rest.
