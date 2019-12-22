@@ -5,7 +5,6 @@ public class Q54_55_56_58Shape {
     public static void main(String[] args) {
         Rectangle r1 = new Rectangle();
         r1.getArea();
-
     }
 }
 
